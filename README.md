@@ -18,9 +18,12 @@
  Delete reservation information
 #Technology used
  php
- laravel10.9
+ laravel8
 #Development environment
  home/inagaki/coachtech/laravel/shop-laravel
+ docker-compose up -d --build
+ docker-compose exec php bash
+ composer create-project "laravel/laravel=8.*" . --prefer-dist
  
  
  
